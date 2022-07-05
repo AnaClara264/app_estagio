@@ -127,6 +127,7 @@ void desligar(){
         auxiliar = "Desigado";
         flag=2;
 }
+// tirar
 void pausar(){
     if(auxiliar == "Concluído"){
       return;
@@ -137,6 +138,7 @@ void pausar(){
     auxiliar = "Pausa";
     flag=2;
 }
+// tirar
 void continuar(){
   if(auxiliar == "Concluído"){
     return;
